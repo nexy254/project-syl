@@ -225,6 +225,10 @@ a:hover {
 /* Mobile */
 @media (max-width: 1130px) {
 
+    html {
+        position: relative;
+    }
+
     body {
         flex-wrap: wrap;
     }
@@ -242,4 +246,35 @@ a:hover {
     .screenie {
         height: 20rem;
     }
+}
+
+@media (max-width: 400px) {
+
+    html {
+        position: relative;
+    }
+
+    body {
+        flex-wrap: wrap;
+        height: 200dvh;
+    }
+
+    .info-text {
+        font-size: 18px;
+    }
+
+    .kibby {
+        width: 100px;
+        aspect-ratio: 1/1;
+        margin-right: 40px;
+    }
+
+    .screenie {
+        height: 20rem;
+    }
+
+    .side-content-one {
+        margin-top: 30rem;
+    }
+
 }
